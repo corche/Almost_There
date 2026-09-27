@@ -1,0 +1,11 @@
+Copyright (c) 2026 corche.
+
+이 플러그인(Dart 인터페이스, Android 네이티브 코드 및 관련 파일)은
+프로젝트 루트의 LICENSE와 동일한 조건으로 제공됩니다.
+별도 배포 시에도 루트 LICENSE 전문을 함께 제공해야 합니다.
+외부 라이브러리 및 제3자 자산에는 해당 저작권자의 라이선스가 적용됩니다.
+
+This plugin, including its Dart interface, Android native code, and related
+files, is licensed under the same terms as the LICENSE at the project root.
+Separate distributions must include the full text of that LICENSE.
+External libraries and third-party assets retain their respective licenses.

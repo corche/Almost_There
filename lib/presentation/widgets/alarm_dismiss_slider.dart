@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/services.dart';
 
 /// A deliberate, thumb-only dismissal gesture. Screen readers and keyboard
@@ -98,6 +99,9 @@ class _AlarmDismissSliderState extends State<AlarmDismissSlider>
                   .clamp(1.0, double.infinity);
               return GestureDetector(
                 behavior: HitTestBehavior.opaque,
+                // Count movement from pointer-down, including the distance
+                // travelled before Flutter recognizes the horizontal drag.
+                dragStartBehavior: DragStartBehavior.down,
                 // On a system overlay it is easy to start a drag slightly
                 // outside the thumb. Let the whole track receive it, and
                 // leave a tap fallback so the alarm can always be closed.

@@ -1,5 +1,8 @@
 본 소프트웨어는 이하의 조건에 따라 사용, 수정 및 배포가 허가됩니다.
 
+적용 범위
+본 라이선스는 본 프로젝트에서 작성한 앱 소스 코드와 자체 플러그인 `packages/alarm_output` 전체(Dart 인터페이스, Android 네이티브 코드 및 관련 파일)에 적용됩니다. 해당 플러그인을 별도로 복제, 수정 또는 배포하는 경우에도 아래의 소스 코드 공개 및 동일 조건 배포 의무가 적용됩니다. 외부 라이브러리 및 제3자 자산에는 각 저작권자의 별도 라이선스가 적용됩니다.
+
 1. 소스 코드의 이용 및 공개 의무
    본 소프트웨어의 소스 코드를 사용, 복제, 수정하여 배포하거나 상업적으로 이용하는 것은 자유롭게 허용됩니다. 단, 본 소프트웨어 또는 본 소프트웨어를 기반으로 제작된 파생 저작물(수정본, 연동 프로그램 등)을 타인에게 배포할 때는 반드시 다음 조건을 준수해야 합니다.
 
@@ -17,6 +20,9 @@
    본 소프트웨어는 "있는 그대로" 제공되며, 상품성이나 특정 목적에의 적합성에 대한 보증을 포함하여 명시적이든 묵시적이든 어떠한 종류의 보증도 제공하지 않습니다. 원저작자는 본 소프트웨어의 사용 또는 수정으로 인해 발생하는 어떠한 손해나 법적 책임에 대해서도 책임을 지지 않습니다.
 
 ---
+
+Scope
+This license applies to the application source code authored for this project and the entire custom `packages/alarm_output` plugin, including its Dart interface, Android native code, and related files. Copying, modifying, or distributing the plugin separately is also subject to the source disclosure and same-license distribution obligations below. External libraries and third-party assets remain subject to their respective licenses.
 
 1. Source Code Use and Disclosure Obligation
    The source code of this software may be freely used, reproduced, modified, distributed, and used for commercial purposes. However, when distributing this software or any derivative works based on it (including modifications and integrations) to a third party, you must comply with the following conditions:

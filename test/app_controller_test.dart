@@ -215,6 +215,7 @@ class _FakePermissions extends PermissionService {
 
 class _FakeMonitor implements ArrivalMonitor {
   final _arrivals = StreamController<Destination>.broadcast(sync: true);
+  final _handledArrivals = StreamController<String>.broadcast(sync: true);
   final _errors = StreamController<String>.broadcast(sync: true);
   final Set<String> fired = {};
   final List<String> rearmed = [];
@@ -229,6 +230,8 @@ class _FakeMonitor implements ArrivalMonitor {
 
   @override
   Stream<Destination> get arrivals => _arrivals.stream;
+  @override
+  Stream<String> get handledArrivals => _handledArrivals.stream;
   @override
   Stream<String> get errors => _errors.stream;
   @override
@@ -258,6 +261,7 @@ class _FakeMonitor implements ArrivalMonitor {
   @override
   Future<void> dispose() async {
     await _arrivals.close();
+    await _handledArrivals.close();
     await _errors.close();
   }
 }
