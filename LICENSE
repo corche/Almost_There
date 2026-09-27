@@ -1,0 +1,41 @@
+본 소프트웨어는 이하의 조건에 따라 사용, 수정 및 배포가 허가됩니다.
+
+1. 소스 코드의 이용 및 공개 의무
+   본 소프트웨어의 소스 코드를 사용, 복제, 수정하여 배포하거나 상업적으로 이용하는 것은 자유롭게 허용됩니다. 단, 본 소프트웨어 또는 본 소프트웨어를 기반으로 제작된 파생 저작물(수정본, 연동 프로그램 등)을 타인에게 배포할 때는 반드시 다음 조건을 준수해야 합니다.
+
+- 파생 저작물의 전체 소스 코드를 사용자가 무료로 접근할 수 있도록 공개해야 합니다.
+- 파생 저작물 역시 본 라이선스(소스 코드 공개 의무 및 이미지 저작자 표기 규정)와 동일한 조건으로만 배포해야 합니다.
+
+2. 미디어 자산(이미지 등)의 무단 도용 금지 및 저작자 표기 규정
+   본 소프트웨어에 포함된 모든 이미지, 그래픽, 디자인 자산은 원 형태를 유지하는 범위 내에서만 사용이 허가되며, 무단 도용 및 악의적인 변형을 금지합니다. 해당 자산을 사용할 때는 반드시 다음의 시각적 기준을 충족하는 위치에 원저작자를 표기해야 합니다.
+
+- 표기 위치: 사용자가 쉽게 식별할 수 있는 충분히 보이는 곳 (예: 이미지 하단, 크레딧 화면 등)
+- 텍스트 크기: 최소 10pt 이상
+- 명암비: 텍스트와 배경 간의 명암비 최소 2.85:1 이상 유지
+
+3. 보증의 부인
+   본 소프트웨어는 "있는 그대로" 제공되며, 상품성이나 특정 목적에의 적합성에 대한 보증을 포함하여 명시적이든 묵시적이든 어떠한 종류의 보증도 제공하지 않습니다. 원저작자는 본 소프트웨어의 사용 또는 수정으로 인해 발생하는 어떠한 손해나 법적 책임에 대해서도 책임을 지지 않습니다.
+
+---
+
+1. Source Code Use and Disclosure Obligation
+   The source code of this software may be freely used, reproduced, modified, distributed, and used for commercial purposes. However, when distributing this software or any derivative works based on it (including modifications and integrations) to a third party, you must comply with the following conditions:
+
+- The complete source code of the derivative work must be disclosed and made publicly accessible to users free of charge.
+- The derivative work must be distributed under the same terms and conditions as this license (including the source code disclosure obligation and media asset attribution rules).
+
+2. Protection of Media Assets and Attribution Guidelines
+   All images, graphics, and design assets included in this software are licensed for use only in their original form. Unauthorized plagiarism, appropriation, or malicious modification of these assets is strictly prohibited. When using these assets, credit to the original author must be displayed in a clearly visible location that meets the following visual standards:
+
+- Placement: A prominent location easily identifiable by users (e.g., at the bottom of the image, credits screen, etc.).
+- Text Size: Minimum 10pt or larger.
+- Contrast Ratio: A minimum contrast ratio of 2.85:1 between the text and the background must be maintained.
+
+3. Disclaimer of Warranty
+   THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OR MODIFICATION OF THIS SOFTWARE.
+
+---
+
+Copyright (c) 2026 corche (https://github.com). All rights reserved.
+
+Permission is hereby granted to use, modify, and distribute this software subject to the conditions specified above.

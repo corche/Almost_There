@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <application>
+        <activity
+            android:name="app.almostthere.alarm_output.LockScreenAlarmActivity"
+            android:exported="false"
+            android:taskAffinity="${applicationId}.alarm"
+            android:excludeFromRecents="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Material.NoActionBar"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" />
+    </application>
+</manifest>
